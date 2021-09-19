@@ -36,7 +36,7 @@ QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlo
  `Quaternion` |`orientation` | Box의 회전값입니다.
  `float`| `maxDistance` | 최대 감지 거리입니다.
  `int`|`layerMask` | layerMask 값입니다.
- `QueryTriggerInteraction`|`queryTriggerinteraction` | 트리거 콜라이더 감지 여부입니다.
+ `QueryTriggerInteraction`|`queryTriggerinteraction` | 트리거 콜라이더를 감지할지 여부입니다.
 
 ### 주의사항
 * halfExtents 
