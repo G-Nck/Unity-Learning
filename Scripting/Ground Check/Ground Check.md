@@ -44,7 +44,10 @@ QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlo
   * BoxCollider의 Size 값을 참조할때, lossyScale 등을 사용하여 Scale 값을 월드 기준으로 하셔야 합니다.
 * direction 
   * 월드 기준이라는 것을 명심하세요.
+* hitInfo 
+  * Boxcast가 아무것도 감지하지 못했을 때 할당되지 않습니다. 예외처리를 꼭 하시기 바랍니다.
 * layerMask
   * 자료형이 int인 점때문에 maxDistance값 대신 들어갈 수 있습니다. 또한 오류가 검출되지 않습니다.
+
 
 
