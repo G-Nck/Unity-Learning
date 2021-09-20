@@ -49,5 +49,12 @@ QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlo
 * layerMask
   * 자료형이 int인 점때문에 maxDistance값 대신 들어갈 수 있습니다. 또한 오류가 검출되지 않습니다.
 
+* 이동 중인 오브젝트에 사용 시
+  * Transform.Translate 등으로 오브젝트 이동 시 이동 거리만큼 구조물 속에 들어간 채로 Boxcast가 실행됩니다. 컴포넌트 순서에 유의하여 코드 흐름을 보시기 바랍니다.
+
+* Gizmo 등으로 디버깅 시
+  * DrawWireCube의 경우 Scale 값으로 크기 절반값을 사용하지 않고 전체값을 사용한다는 점.
+  
+
 
 
